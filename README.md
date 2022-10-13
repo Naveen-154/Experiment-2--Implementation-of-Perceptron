@@ -43,15 +43,7 @@ Print the accuracy
 
 
  PROGRAM:
- 
-OUTPUT:
-
-![1](https://user-images.githubusercontent.com/114643271/195661935-8b583e83-0613-4380-b416-3767d47faa9e.jpg)
-
-![nitish](https://user-images.githubusercontent.com/114643271/195661505-8d2352e8-092d-421b-922b-90173697894d.jpg)
-
-RESULT:
-Thus,a perceptimport numpy as np
+ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 from mpl_toolkits import mplot3d
@@ -119,9 +111,15 @@ print("accuracy" , accuracy_score(classifier.predict(x_test), y_test)*100)
 plt.plot(range(1, len(classifier.misclassified_samples) + 1),classifier.misclassified_samples, marker='o')
 plt.xlabel('Epoch')
 plt.ylabel('Errors')
-plt.show()ron for classification using Python is executed successfully.
+plt.show()
+ 
+OUTPUT:
 
+![1](https://user-images.githubusercontent.com/114643271/195661935-8b583e83-0613-4380-b416-3767d47faa9e.jpg)
 
+![nitish](https://user-images.githubusercontent.com/114643271/195661505-8d2352e8-092d-421b-922b-90173697894d.jpg)
 
+RESULT:
 
+Thus,a perceptron for classification using Python is executed successfully.
 
